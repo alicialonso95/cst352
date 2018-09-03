@@ -1,0 +1,59 @@
+body {
+    background-color: lightpink;
+    color: black;
+}
+
+h1 {
+    color: black;
+    margin-left: 20px;
+}
+nav a {
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: black;
+}
+
+table{
+    margin:0px auto;
+}
+
+td{
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+td strong{
+    color: black;
+}
+
+#table-header{
+    background-color: white;
+}
+
+.table-row{
+    background-color: yellow;
+}
+
+ul{
+    text-align: left;
+    padding-left: 200px;
+}
+
+.hobby{
+    color: yellow;
+}
+
+nav a:hover{
+    border-bottom: 2px;
+    font-size: 2em;
+    transition:.9s;
+}
+
+header, main, nav, footer{
+    text-align: center;
+}
+
+footer{
+    clear: left;
+}

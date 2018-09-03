@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="css/index.css">
     <meta charset="uft-8" />
     <title>
         Alicia Alonso-Garcia Portfolio
