@@ -7,6 +7,57 @@ a{
 h1{
     color: white;
     font-size: 50px;
+    color:#ff5047;
+}
+
+.hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.info2{
+    max-width: 1300px;
+    margin: 40px auto 0 auto;
+    line-height: 1.65;
+    padding: 20px 50px;
+    display: flex;
+}
+
+.lite{
+    flex: 1;
+    order: 2;
+    background-color: #ff5047;
+    padding: 15px;
+    color: black;
+    margin: 10px;
+}
+
+.toolite{
+    flex: 1;
+    order: 1;
+    background-color: #ff7b72;
+    padding: 15px;
+    color: black;
+     margin: 10px;
+     align-items: flex-start;
+}
+
+.red{
+    flex: 1;
+    order: 3;
+    background-color: #ff170f;
+    padding: 15px;
+     color: black;
+      margin: 10px;
+}
+
+.dark{
+    flex: 1;
+    order: 4;
+    background-color: #ab0c07;
+    padding: 15px;
+     color: black;
+      margin: 10px;
 }
 
 body{
@@ -20,6 +71,11 @@ a:hover{
 }
 
 h2{
-    color: white;
     text-align: center;
+    color:#ff170f;
+}
+
+.info{
+    text-align: center;
+    color: white;
 }

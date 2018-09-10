@@ -7,6 +7,48 @@ a{
 h1{
     color: white;
     font-size: 50px;
+    color:#47bfff;
+}
+
+.hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.info{
+    max-width: 1300px;
+    margin: 40px auto 0 auto;
+    line-height: 1.65;
+    padding: 20px 50px;
+    display: flex;
+}
+
+.blue{
+    flex: 1;
+    order: 2;
+    background-color: #4f7bff;
+    padding: 15px;
+    color: black;
+    margin: 10px;
+}
+
+.lightblue{
+    flex: 1;
+    order: 1;
+    background-color: #47bfff;
+    padding: 15px;
+    color: black;
+     margin: 10px;
+     align-items: flex-start;
+}
+
+.darkerblue{
+    flex: 1;
+    order: 3;
+    background-color: #1c39ba;
+    padding: 15px;
+     color: black;
+      margin: 10px;
 }
 
 body{
@@ -22,4 +64,10 @@ a:hover{
 h2{
     color: white;
     text-align: center;
+    color:#4f7bff;
+}
+
+.info{
+    text-align: center;
+    color: white;
 }

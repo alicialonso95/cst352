@@ -7,6 +7,48 @@ a{
 h1{
     color: white;
     font-size: 50px;
+    color:lightgreen;
+}
+
+.hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.about{
+    max-width: 1300px;
+    margin: 40px auto 0 auto;
+    line-height: 1.65;
+    padding: 20px 50px;
+    display: flex;
+}
+
+.green{
+    flex: 1;
+    order: 2;
+    background-color: green;
+    padding: 15px;
+    color: black;
+    margin: 10px;
+}
+
+.lightgreen{
+    flex: 1;
+    order: 1;
+    background-color: lightgreen;
+    padding: 15px;
+    color: black;
+     margin: 10px;
+     align-items: flex-start;
+}
+
+.sidebar-two{
+    flex: 1;
+    order: 3;
+    background-color: #c56fff;
+    padding: 15px;
+     color: black;
+      margin: 10px;
 }
 
 body{
@@ -22,4 +64,10 @@ a:hover{
 h2{
     color: white;
     text-align: center;
+    color:green;
+}
+
+.info{
+    text-align: center;
+    color: white;
 }
