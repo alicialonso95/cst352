@@ -5,7 +5,6 @@ a{
 }
 
 h1{
-    color: white;
     font-size: 50px;
     color:#ff5047;
 }
@@ -51,6 +50,20 @@ h1{
       margin: 10px;
 }
 
+header{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+hr{
+    width: 50%;
+}
 .dark{
     flex: 1;
     order: 4;
@@ -63,6 +76,7 @@ h1{
 body{
     background-color: black;
     color: white;
+    text-align: center;
 }
 
 a:hover{

@@ -41,6 +41,10 @@ h1{
      align-items: flex-start;
 }
 
+
+header{
+    text-align: center;
+}
 .white{
     flex: 1;
     order: 3;
@@ -53,6 +57,15 @@ h1{
 body{
     background-color: black;
     color: white;
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+}
+
+hr{
+    width: 50%;
 }
 
 a:hover{
