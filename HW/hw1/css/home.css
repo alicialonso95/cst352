@@ -5,9 +5,28 @@ a{
 }
 
 h1{
-    color: white;
     font-size: 50px;
     color:#47bfff;
+}
+
+sources{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+}
+
+hr{
+    width: 50%;
+}
+
+figure{
+    text-align: center;
+}
+
+works{
+    text-align: center;
 }
 
 .hover{
@@ -62,7 +81,6 @@ a:hover{
 }
 
 h2{
-    color: white;
     text-align: center;
     color:#4f7bff;
 }

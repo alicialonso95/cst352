@@ -5,9 +5,28 @@ a{
 }
 
 h1{
-    color: white;
     font-size: 50px;
     color:lightgreen;
+}
+
+hr{
+    width: 50%
+}
+
+nav{
+    text-align: center;
+}
+
+.green{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+about{
+    text-align: center;
 }
 
 .hover{
@@ -62,7 +81,6 @@ a:hover{
 }
 
 h2{
-    color: white;
     text-align: center;
     color:green;
 }
