@@ -20,7 +20,7 @@ echo '';
 <main>
     <footer> <center>
         <figure>
-        <img src="../../CSUMB-logo.png" alt="CSUMB Logo" />
+        <img src="csumb_logo-1.png" alt="CSUMB Logo" />
         </center>
     </figure><center>
          <hr> CST 352: Web Scripting. 2018; Alonso-Garcia <br />
