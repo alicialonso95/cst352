@@ -31,12 +31,13 @@
         // }
         $pointCounter =  $pointCounter + $faceValue;  // $pointCounter += $faceValue;
         if($faceValue==1){
-            echo "<img src='cards/$suit[$indexSuit]/$faceValue.png' alt='$faceValue' title= '$faceValue' class='ace' />";
+            echo "<img src='cards/$suit[$indexSuit]/$faceValue.png' alt='$faceValue' title= '$faceValue'/>";
             $aceCounter++;  //$aceCounter = $aceCounter + 1; 
         }else{
            echo "<img src='cards/$suit[$indexSuit]/$faceValue.png' alt='$faceValue' title= '$faceValue'/>";
         } 
     }
+    echo " Points: ";
     echo $pointCounter;
     
     $totalPoints += $pointCounter;
@@ -49,7 +50,7 @@
      
      for($i=1; $i<6; $i++){
        $card = rand(1,13);
-       echo "<img src ='cards/".$suit[rand(0,3)]."/$card.png' alt ='$card' title ='$card' />";
+       echo "<img src ='cards/".$suit[rand(0,3)]."/$card.png' alt ='$card' title ='$card' class='cards' class='cards'/>";
     }
  }
  
@@ -57,13 +58,13 @@
      global $totalPoints;
     // echo "<h1>";
      if($p1 > $p2) { 
-         echo "Player 1 wins $totalPoints Points";
+         echo "Player 1 wins $totalPoints Points!";
      }
      else if($p1 < $p2) {
-         echo "Player 2 wins $totalPoints Points";
+         echo "Player 2 wins $totalPoints Points!";
      }
      else {
-         echo "Tie game";
+         echo "Tie game!";
      }
     // echo "</h1>";
     
@@ -74,18 +75,51 @@
 <html>
     <head>
         <title> Lab 3: Ace Poker </title>
+        
         <style>
-            h1, h2, body {
+            
+            /*.cards{
+                width:300;
+                height:400;    
+            }*/
+            
+            h2, body {
+                color: white;
                 text-align: center;
+                background-image: url("casino.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                font-size: 50px;
+                text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+            }
+            hr{
+                width: 50%;
             }
             .ace {
                 border: 2px yellow solid;
             }
+            h1{
+                color: black;
+                font-size: 80px;
+                text-align: center;
+                text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+            }
+            footer{
+                font-size:25px;
+                color: white;
+                text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+            }
+            
         </style>
     </head>
     <body>
+            <br><br>
         <h1>Ace Poker</h1>
-        <h2>Player with more aces wins all points.</h2>
+        <hr>
+        <div class="page">
+        <h2>Player with more aces wins all points!</h2>
         <?php
         
         echo "Player 1: ";
@@ -100,10 +134,14 @@
        
         ?>
         
-        
         <h2>
             <?=displayWinner($p1, $p2)?>
         </h2>
-        
+        <hr>
+             
+        </div>
     </body>
+    <footer>
+    Cal State Monterey Bay <br>CST 352: Web Scripting. 2018; Alonso-Garcia, Alicia <br />
+    </footer>
 </html>
