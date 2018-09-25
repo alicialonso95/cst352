@@ -91,7 +91,7 @@
                 background-repeat: no-repeat;
                 background-attachment: fixed;
                 background-size: cover;
-                font-size: 50px;
+                font-size: 20px;
                 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
             }
             hr{
@@ -102,7 +102,7 @@
             }
             h1{
                 color: black;
-                font-size: 80px;
+                font-size: 50px;
                 text-align: center;
                 text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
             }
