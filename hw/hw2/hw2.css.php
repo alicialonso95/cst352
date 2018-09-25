@@ -1,7 +1,7 @@
 <?php 
 header ("Content-type: text/css");
 ?>
-body{
+    body{
             text-align: center;
             background: black;
             color: black;
@@ -9,19 +9,30 @@ body{
             background-image: url("fixedbackground.jpg");
             background-position: center;
             background-repeat: no-repeat;
-          background-size: cover;
-          position: relative;
+            background-attachment: fixed;
+            background-size: cover;
+            position: relative;
+            border-style: double;
+            border-width: thick;
+            font-family: "Times New Roman", Times, serif;
         }
         
-        .character{
-        position: absolute;
+    .displayBackgrounds{
+            position: relative;
+            border-width: thick;
+    }
+        
+    .characters{
+            position: absolute;
+            top: 770px;
+		    right: 800px;
         }
         
 	.hp, h1{
-	text-shadow: 3px 2px yellow;
-	font-size: 50px;
-	font-weight: bold;
-	text-align: center;
-	color: black;
+        	text-shadow: 3px 2px yellow;
+        	font-size: 50px;
+        	font-weight: bold;
+        	text-align: center;
+        	color: black;
 	}
     

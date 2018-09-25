@@ -1,3 +1,8 @@
 [20-Sep-2018 18:48:31 UTC] PHP Fatal error:  Call to undefined function totalPoints() in /home/ubuntu/workspace/cst352/labs/lab3/lab3.php on line 53
 [20-Sep-2018 18:48:31 UTC] PHP Stack trace:
 [20-Sep-2018 18:48:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab3/lab3.php:0
+[25-Sep-2018 18:30:16 UTC] PHP Parse error:  syntax error, unexpected 'displayWinner' (T_STRING) in /home/ubuntu/workspace/cst352/labs/lab3/lab3.php on line 42
+[25-Sep-2018 18:30:57 UTC] PHP Parse error:  syntax error, unexpected 'displayWinner' (T_STRING) in /home/ubuntu/workspace/cst352/labs/lab3/lab3.php on line 42
+[25-Sep-2018 18:38:34 UTC] PHP Fatal error:  Call to undefined function totalPoints() in /home/ubuntu/workspace/cst352/labs/lab3/lab3.php on line 87
+[25-Sep-2018 18:38:34 UTC] PHP Stack trace:
+[25-Sep-2018 18:38:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab3/lab3.php:0
