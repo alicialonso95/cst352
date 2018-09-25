@@ -1,0 +1,30 @@
+<?php 
+header ("Content-type: text/css");
+?>
+
+body{
+            text-align: center;
+            background: black;
+            color: white;
+        }
+        
+    /*.ranBackground {
+    background: url(img/<?php echo $background; ?>) no-repeat;
+    background-size: cover;
+}
+	
+	.character
+	{
+		position: absolute;
+		top: 60px;
+		left: 80px;
+	}*/
+	
+	.hp, h1{
+	text-shadow: 3px 2px red;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	}
+    
