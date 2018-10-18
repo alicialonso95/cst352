@@ -3,34 +3,40 @@
 include '../../sqlconnection.php';
 $dbConn = getConnection("quotes");
 
-//function displayAllQuotes(){
-  //  global $dbConn;
-    //$sql = "SELECT * FROM q_quotes";
-    //$statement = $dbConn->prepare($sql);
-    //$statement->execute();
-    //$records = $statement->fetchAll(PDO::FETCH_ASSOC);
+function displayAllQuotes() {
+    global $dbConn;
+    
+    $sql = "SELECT * FROM q_quotes";
+    $statement = $dbConn->prepare($sql);
+    $statement->execute();
+    //$records = $statement->fetch(); //returns only ONE record
+    $records = $statement->fetchAll(PDO::FETCH_ASSOC); //returns multiple records
+    
     //print_r($records);
-    //foreach ($records as $record) {
+    
+    foreach ($records as $record) {
         
-      //  echo $record['quote'] . "<br>";
+        echo $record['quote'] . "<br>";
         
-    //}
-//}
+    }//end Foreach
+    
+} //endFunction
 
 
-
-
-function displayRandomQuote(){
+function displayRandomQuote() {
     global $dbConn;
     
     $randomRecord = rand(0,26);
-    $sql = "SELECT * FROM q_quotes
-            NATURAL JOIN q_author
-            LIMIT $randomRecord";
+    $sql = "SELECT * FROM q_quotes 
+            NATURAL JOIN q_author  
+            LIMIT $randomRecord,1";
     $statement = $dbConn->prepare($sql);
     $statement->execute();
-    //$records = $statement->fetchAll(PDO::FETCH_ASSOC);
+    //$records = $statement->fetch(); //returns only ONE record
+    $records = $statement->fetchAll(PDO::FETCH_ASSOC); //returns multiple records
+    
     //print_r($records);
+    
     foreach ($records as $record) {
         
         echo $record['quote'] . "<br>";
@@ -38,26 +44,46 @@ function displayRandomQuote(){
         echo  $record['firstName'] . "  " . $record['lastName'];
         echo "</a>";
     }
+    
 }
+
+
 ?>
 
 <!DOCTYPE html>
 <html>
     <head>
         <style>
-            h1, body{
+            h1{
                 text-align: center;
+                background-color: #e7efff;
+                margin:60px;
+                margin-left: 150px;
+                margin-right: 150px;
+                border-style: dashed;
             }
+            body{
+                 background-image: url('img/life.jpg');
+                 background-size: cover;
+            }
+            .quote{
+                text-align:center;
+                background-color: #d1b2ff;
+                margin-left: 150px;
+                margin-right: 150px;
+                border-style: dashed;
+            }  
         </style>
-        <title> Lab 5: Displaying Random Quotes</title>
+        <title> Lab 5: Random Quotes</title>
     </head>
     <body>
-<h1> Random Famous Quotes!</h1>
-        test <br><br>
+<h1> Random Famous Quotes</h1>
 
+<div class="quote">
+<br>
 <?= displayRandomQuote(); ?>
-
-
-
+<br><br>
+    
+</div>
     </body>
 </html>
