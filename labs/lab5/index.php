@@ -1,23 +1,42 @@
 <?php
 
-$host = "localhost";
-$dbname = "quotes";
-$username = "root";
-$password = "";
-$dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
-$dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+include '../../sqlconnection.php';
+$dbConn = getConnection("quotes");
 
-function displayAllQuotes(){
+//function displayAllQuotes(){
+  //  global $dbConn;
+    //$sql = "SELECT * FROM q_quotes";
+    //$statement = $dbConn->prepare($sql);
+    //$statement->execute();
+    //$records = $statement->fetchAll(PDO::FETCH_ASSOC);
+    //print_r($records);
+    //foreach ($records as $record) {
+        
+      //  echo $record['quote'] . "<br>";
+        
+    //}
+//}
+
+
+
+
+function displayRandomQuote(){
     global $dbConn;
-    $sql = "SELECT * FROM q_quotes";
+    
+    $randomRecord = rand(0,26);
+    $sql = "SELECT * FROM q_quotes
+            NATURAL JOIN q_author
+            LIMIT $randomRecord";
     $statement = $dbConn->prepare($sql);
     $statement->execute();
-    $records = $statement->fetchAll(PDO::FETCH_ASSOC);
+    //$records = $statement->fetchAll(PDO::FETCH_ASSOC);
     //print_r($records);
     foreach ($records as $record) {
         
         echo $record['quote'] . "<br>";
-        
+        echo "<a target='authorInfo' href='authorInfo.php?authorId=".$record['authorId']."'>";
+        echo  $record['firstName'] . "  " . $record['lastName'];
+        echo "</a>";
     }
 }
 ?>
@@ -26,7 +45,7 @@ function displayAllQuotes(){
 <html>
     <head>
         <style>
-            h1{
+            h1, body{
                 text-align: center;
             }
         </style>
@@ -34,8 +53,9 @@ function displayAllQuotes(){
     </head>
     <body>
 <h1> Random Famous Quotes!</h1>
+        test <br><br>
 
-    <?= displayAllQuotes(); ?>
+<?= displayRandomQuote(); ?>
 
 
 

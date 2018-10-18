@@ -1,5 +1,0 @@
-[12-Oct-2018 18:30:03 UTC] PHP Warning:  print_r() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/cst352/hw/hw3/hw3.php on line 24
-[12-Oct-2018 18:30:03 UTC] PHP Stack trace:
-[12-Oct-2018 18:30:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/hw/hw3/hw3.php:0
-[12-Oct-2018 18:30:03 UTC] PHP   2. print_r() /home/ubuntu/workspace/cst352/hw/hw3/hw3.php:24
-[13-Oct-2018 08:11:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst352/hw/hw3/hw3.php on line 241
