@@ -13,20 +13,24 @@ $password = sha1($_POST['password']);
 
 $sql = "SELECT *
         FROM q_admin
-        WHERE username = '$username'
-        AND password = '$password' ";
-
+        WHERE username = :username
+        AND password = :password ";
+        
+$namedParameters = array();
+$namedParameters[":username"] = $username;
+$namedParameters[":password"] = $password;
 
 //echo $sql;
 $stmt = $dbConn->prepare($sql);
-$stmt->execute();
+$stmt->execute($namedParameters);
 $record = $stmt->fetch(PDO::FETCH_ASSOC);
 
 //print_r($record);
 
 if(empty($record)){ 
     
-    echo "Wrror: Wrong Username or Password!";
+    echo "Error: Wrong Username or Password!";
+    
     
 } else {
     
@@ -38,3 +42,10 @@ if(empty($record)){
 }
 
 ?>
+
+<style>
+            h1,body{
+                text-align:center;
+                background-color: #9ecfff;
+            }
+        </style>

@@ -4,6 +4,14 @@
     <title>
         Alicia Alonso-Garcia Portfolio
     </title>
+    <style>
+        main{
+            text-align: center;
+        }
+        html{
+            background-color: lightpink;
+        }
+    </style>
 </head>    
 <body>
 <?php
@@ -16,8 +24,44 @@ echo '';
 <header>
     <h1><center>Alicia Alonso-Garcia</center></h1>
 </header>
+<hr>
+<main><br>
+<br>
+Homework:
+<br>
+<br>
+
+    <button type="button" onclick="alert('Hello world!')">HW 1</button>
+<button type="button" onclick="alert('Hello world!')">HW 2</button>
+<button type="button" onclick="alert('Hello world!')">HW 3</button>
+<br><br>
+Labs:
+<br><br>
+
+<button type="button" onclick="alert('Hello world!')">Lab 1</button>
+<button type="button" onclick="alert('Hello world!')">Lab 2</button>
+<button type="button" onclick="alert('Hello world!')">Lab 3</button>
+<button type="button" onclick="alert('Hello world!')">Lab 4</button>
+<button type="button" onclick="alert('Hello world!')">Lab 5</button>
+<button type="button" onclick="alert('Hello world!')">Lab 6</button>
 <br /><br />
-<main>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
     <footer> <center>
         <figure>
         <img src="csumb_logo-1.png" alt="CSUMB Logo" />

@@ -4,6 +4,7 @@
         <style>
             h1,body{
                 text-align:center;
+                background-color: #9ecfff;
             }
         </style>
         <title> Admin Login</title>
@@ -16,7 +17,9 @@
             Username: <input type="text" name="username"/><br>
             Password: <input type="password" name="password"/>
             <br>
-            <input type="submit" name="Login!"/>
+            <input type="submit" name="Login" value="Login"/>
+            
+            
             
         </form>
     </body>

@@ -26,10 +26,28 @@ function displayAllQuotes() {
 function displayRandomQuote() {
     global $dbConn;
     
-    $randomRecord = rand(0,26);
-    $sql = "SELECT * FROM q_quotes 
-            NATURAL JOIN q_author  
-            LIMIT $randomRecord,1";
+//1
+ $sql = "SELECT quote, STRING(QUOTE) = 'L' 
+ FROM q_quotes NATURAL JOIN q_author 
+ ORDER BY LENGTH(quote) desc";
+ 
+    
+//2
+    $sql = "SELECT firstName, lastName, 'M', country 
+            FROM q_quotes NATURAL JOIN q_author 
+            ORDER BY LENGTH(quote) 
+            DESC LIMIT 3,10";
+            
+//3
+    $sql = "SELECT quote, LENGTH(quote) 
+    FROM q_quotes NATURAL JOIN q_author 
+    ORDER BY LENGTH(quote) ASC limit 5,1";
+
+//4
+    $sql = "SSELECT quote, 'philosophy' FROM q_quotes 
+    NATURAL JOIN q_author 
+    ORDER BY LENGTH(quote) 
+    ASC";
     $statement = $dbConn->prepare($sql);
     $statement->execute();
     //$records = $statement->fetch(); //returns only ONE record
@@ -40,9 +58,7 @@ function displayRandomQuote() {
     foreach ($records as $record) {
         
         echo $record['quote'] . "<br>";
-        echo "<a target='authorInfo' href='authorInfo.php?authorId=".$record['authorId']."'>";
-        echo  $record['firstName'] . "  " . $record['lastName'];
-        echo "</a>";
+        echo $sql;
     }
     
 }
