@@ -181,3 +181,12 @@ Stack trace:
 [01-Nov-2018 18:26:20 UTC] PHP Stack trace:
 [01-Nov-2018 18:26:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab6/authorInfo.php:0
 [01-Nov-2018 19:55:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst352/labs/lab6/login.php on line 39
+[02-Nov-2018 18:16:54 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab6/loginProcess.php on line 6
+[02-Nov-2018 18:16:54 UTC] PHP Stack trace:
+[02-Nov-2018 18:16:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab6/loginProcess.php:0
+[02-Nov-2018 18:16:54 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab6/loginProcess.php on line 6
+[02-Nov-2018 18:16:54 UTC] PHP Stack trace:
+[02-Nov-2018 18:16:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab6/loginProcess.php:0
+[02-Nov-2018 18:16:54 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab6/loginProcess.php on line 7
+[02-Nov-2018 18:16:54 UTC] PHP Stack trace:
+[02-Nov-2018 18:16:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab6/loginProcess.php:0
