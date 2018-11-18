@@ -24,8 +24,8 @@
     
       var guessCount = 1;
       var resetButton = document.querySelector('#reset');
-      resetButton.style.display = 'none';
-      guessField.focus();
+      /*resetButton.style.display = 'none';*/
+      /*guessField.focus();*/
       
       function checkGuess() {
             var userGuess = Number(guessField.value);
@@ -57,7 +57,7 @@
               guessField.focus();
       }
       
-      guessSubmit.addEventListener('click', checkGuess);
+      /*guessSubmit.addEventListener('click', checkGuess);*/
       
       function setGameOver() {
         guessField.disabled = true;
@@ -115,6 +115,5 @@ Guess a number between 1 and 99 in seven attempts!
 <p id="lowOrHi"></p>
 <button id='reset'>Reset</button>
 </div>
-<script SRC="js/functions.js"></script>
 </body>
 </html>
