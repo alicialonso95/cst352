@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <script src="https://code.jquery.com/jquery.min.js"></script>
+        
+        
+        <!--Bootstrap files-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+        <!--Custom Styles-->
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <style>
+            body{
+                text-align:center;
+            }
+            table, th, td{
+                text-align:center;
+                border: 1px solid black;
+                padding: 5px;
+                
+            }
+        </style>
+        <title> Javascript</title>
+    </head>
+    <body>
+        
+        <h1> Holiday Shopping </h1>
+        <br>
+        <h2> Cart </h2>
+        <center>
+        <table>
+  <tr>
+    <th>Product</th>
+    <th>Unit Price</th>
+    <th>Quantity</th>
+    <th>Total</th>
+  </tr>
+  <tr>
+    <td>Fruit Cake</td>
+    <td>$30</td>
+    <td>
+        <input type="number" id="fruit" name="fruit">
+    </td>
+    <td>?</td>
+  </tr>
+  <tr>
+    <td>Pinata</td>
+    <td>$20</td>
+    <td>
+         <input type="number" id="pinata" name="pinata">
+    </td>
+    <td>?</td>
+  </tr>
+  <tr>
+      <td> Shipping</td>
+      <td> </td>
+      <td> </td>
+      <td> ? </td>
+  </tr>
+  <tr>
+      <td> Subtotal</td>
+      <td> </td>
+      <td> </td>
+      <td> ? </td>
+  </tr>
+  <tr>
+      <td> Tax(10%)</td>
+      <td> </td>
+      <td> </td>
+      <td> ? </td>
+  </tr>
+  <tr>
+      <td> Total</td>
+      <td> </td>
+      <td> </td>
+      <td> ? </td>
+  </tr>
+</table></center>
+
+<h2> Shipping & handling</h2>
+
+<form>
+  <input type="radio" name="shippingtype" value="next"> Next-day Delivery: $15.00<br>
+  <input type="radio" name="shippingtype" value="three"> Three-day Delivery: $10.00<br>
+  <input type="radio" name="shippingtype" value="regular"> Regular shipping (5-8 days): $5.00<br>  <br>
+  <input type="button" value="Recalculate Total"/>
+</form>
+
+<br><br>
+
+ <input type="checkbox" name="accept" value=""> I accept the terms of this purchase.<br><br>
+ 
+ <input type="submit" value="CONFIRM PURCHASE">
+        
+
+    </body>
+</html>
