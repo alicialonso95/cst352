@@ -1,6 +1,6 @@
 var myQuestions = [
     {
-        question: "<br>When did Stephen King's Pet Semetary release?<br>",
+        question: "<br>1. When did Stephen King's Pet Semetary release?<br>",
         answers: {
             a: '1995<br>',
             b: '1989<br>',
@@ -10,7 +10,17 @@ var myQuestions = [
         correctAnswer: 'b'
     },
     {
-        question: "What classic movie came out in 1960?<br>",
+        question: "2. What classic movie came out in 1960?<br>",
+        answers: {
+            a: 'To Kill a Mockingbird<br>',
+            b: 'Casablanca<br>',
+            c: 'Psycho<br>',
+            d: 'Gone With the Wind<br>'
+        },
+        correctAnswer: 'c'
+    },
+    {
+        question: "3. What classic movie came out in 1960?<br>",
         answers: {
             a: 'To Kill a Mockingbird<br>',
             b: 'Casablanca<br>',
@@ -19,6 +29,40 @@ var myQuestions = [
         },
         correctAnswer: 'c'
     }
+    ,
+    {
+        question: "4. What classic movie came out in 1960?<br>",
+        answers: {
+            a: 'To Kill a Mockingbird<br>',
+            b: 'Casablanca<br>',
+            c: 'Psycho<br>',
+            d: 'Gone With the Wind<br>'
+        },
+        correctAnswer: 'c'
+    }
+    ,
+    {
+        question: "5. What classic movie came out in 1960?<br>",
+        answers: {
+            a: 'To Kill a Mockingbird<br>',
+            b: 'Casablanca<br>',
+            c: 'Psycho<br>',
+            d: 'Gone With the Wind<br>'
+        },
+        correctAnswer: 'c'
+    }
+    ,
+    {
+        question: "6. What classic movie came out in 1960?<br>",
+        answers: {
+            a: 'To Kill a Mockingbird<br>',
+            b: 'Casablanca<br>',
+            c: 'Psycho<br>',
+            d: 'Gone With the Wind<br>'
+        },
+        correctAnswer: 'c'
+    }
+    
 ];
 
 var quizContainer = document.getElementById('quiz');
@@ -87,6 +131,7 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
                 
                 // color green
                 answerContainers[i].style.color = 'lightgreen';
+                var img = new Image();img.src = "movies.jpg";element.appendChild(img);
             }
             // if answer is wrong or blank
             else{
