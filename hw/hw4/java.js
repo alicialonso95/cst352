@@ -1,6 +1,6 @@
 var myQuestions = [
     {
-        question: "<br>1. When did Stephen King's Pet Semetary release?<br>",
+        question: "<br>When did Stephen King's Pet Semetary release?<br>",
         answers: {
             a: '1995<br>',
             b: '1989<br>',
@@ -10,17 +10,7 @@ var myQuestions = [
         correctAnswer: 'b'
     },
     {
-        question: "2. What classic movie came out in 1960?<br>",
-        answers: {
-            a: 'To Kill a Mockingbird<br>',
-            b: 'Casablanca<br>',
-            c: 'Psycho<br>',
-            d: 'Gone With the Wind<br>'
-        },
-        correctAnswer: 'c'
-    },
-    {
-        question: "3. What classic movie came out in 1960?<br>",
+        question: "What classic movie came out in 1960?<br>",
         answers: {
             a: 'To Kill a Mockingbird<br>',
             b: 'Casablanca<br>',
@@ -29,65 +19,24 @@ var myQuestions = [
         },
         correctAnswer: 'c'
     }
-    ,
-    {
-        question: "4. What classic movie came out in 1960?<br>",
-        answers: {
-            a: 'To Kill a Mockingbird<br>',
-            b: 'Casablanca<br>',
-            c: 'Psycho<br>',
-            d: 'Gone With the Wind<br>'
-        },
-        correctAnswer: 'c'
-    }
-    ,
-    {
-        question: "5. What classic movie came out in 1960?<br>",
-        answers: {
-            a: 'To Kill a Mockingbird<br>',
-            b: 'Casablanca<br>',
-            c: 'Psycho<br>',
-            d: 'Gone With the Wind<br>'
-        },
-        correctAnswer: 'c'
-    }
-    ,
-    {
-        question: "6. What classic movie came out in 1960?<br>",
-        answers: {
-            a: 'To Kill a Mockingbird<br>',
-            b: 'Casablanca<br>',
-            c: 'Psycho<br>',
-            d: 'Gone With the Wind<br>'
-        },
-        correctAnswer: 'c'
-    }
-    
 ];
-
-var quizContainer = document.getElementById('quiz');
+ var quizContainer = document.getElementById('quiz');
 var resultsContainer = document.getElementById('results');
 var submitButton = document.getElementById('submit');
-
-generateQuiz(myQuestions, quizContainer, resultsContainer, submitButton);
-
-function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
-
-    function showQuestions(questions, quizContainer){
+ generateQuiz(myQuestions, quizContainer, resultsContainer, submitButton);
+ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
+     function showQuestions(questions, quizContainer){
         // we'll need a place to store the output and the answer choices
         var output = [];
         var answers;
-
-        // for each question...
+         // for each question...
         for(var i=0; i<questions.length; i++){
             
             // first reset the list of answers
             answers = [];
-
-            // for each available answer...
+             // for each available answer...
             for(letter in questions[i].answers){
-
-                // ...radio button
+                 // ...radio button
                 answers.push(
                     '<label>'
                         + '<input type="radio" name="question'+i+'" value="'+letter+'">'
@@ -96,20 +45,16 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
                     + '</label>'
                 );
             }
-
-            // add this question and its answers to the output
+             // add this question and its answers to the output
             output.push(
                 '<div class="question">' + questions[i].question + '</div>'
                 + '<div class="answers">' + answers.join('') + '</div>'
             );
         }
-
-        // finally combine our output list into one string of html and put it on the page
+         // finally combine our output list into one string of html and put it on the page
         quizContainer.innerHTML = output.join('');
     }
-
-
-    function showResults(questions, quizContainer, resultsContainer){
+     function showResults(questions, quizContainer, resultsContainer){
         
         // gather answer containers from our quiz
         var answerContainers = quizContainer.querySelectorAll('.answers');
@@ -120,8 +65,7 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
         
         // for each question...
         for(var i=0; i<questions.length; i++){
-
-            // find selected answer
+             // find selected answer
             userAnswer = (answerContainers[i].querySelector('input[name=question'+i+']:checked')||{}).value;
             
             // if answer is correct
@@ -131,7 +75,6 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
                 
                 // color green
                 answerContainers[i].style.color = 'lightgreen';
-                var img = new Image();img.src = "movies.jpg";element.appendChild(img);
             }
             // if answer is wrong or blank
             else{
@@ -139,17 +82,14 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
                 answerContainers[i].style.color = 'red';
             }
         }
-
-        // show number of correct answers out of total
+         // show number of correct answers out of total
         resultsContainer.innerHTML = numCorrect + ' out of ' + questions.length;
     }
-
-    // show questions
+     // show questions
     showQuestions(questions, quizContainer);
     
     // submit, show results
     submitButton.onclick = function(){
         showResults(questions, quizContainer, resultsContainer);
     }
-
-}
+ } 
