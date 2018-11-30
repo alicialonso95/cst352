@@ -1,7 +1,7 @@
 <?php
    
  include '../../sqlConnection.php';
- $dbConn = getconnection("quotes");
+ $dbConn = getConnection("quotes");
  
     $username = $_GET['username'];
  
@@ -16,6 +16,4 @@
     echo json_encode($record);
  
     
-?><?php
-
 ?>

@@ -25,3 +25,132 @@
 [29-Nov-2018 18:24:47 UTC] PHP Fatal error:  Call to undefined function getconnection() in /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php on line 4
 [29-Nov-2018 18:24:47 UTC] PHP Stack trace:
 [29-Nov-2018 18:24:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php:0
+[29-Nov-2018 19:23:55 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab9/adoptions.php on line 2
+[29-Nov-2018 19:23:55 UTC] PHP Stack trace:
+[29-Nov-2018 19:23:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab9/adoptions.php:0
+[29-Nov-2018 19:23:55 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab9/adoptions.php on line 2
+[29-Nov-2018 19:23:55 UTC] PHP Stack trace:
+[29-Nov-2018 19:23:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab9/adoptions.php:0
+[29-Nov-2018 19:23:55 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab9/adoptions.php on line 3
+[29-Nov-2018 19:23:55 UTC] PHP Stack trace:
+[29-Nov-2018 19:23:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab9/adoptions.php:0
+[29-Nov-2018 19:24:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'pets'' in /home/ubuntu/workspace/cst352/sqlconnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlconnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/labs/lab9/adoptions.php(3): getConnection('pets')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlconnection.php on line 19
+[29-Nov-2018 19:28:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'pets'' in /home/ubuntu/workspace/cst352/sqlconnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlconnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/labs/lab9/adoptions.php(3): getConnection('pets')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlconnection.php on line 19
+[29-Nov-2018 19:36:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'pets'' in /home/ubuntu/workspace/cst352/sqlconnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlconnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/labs/lab9/adoptions.php(3): getConnection('pets')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlconnection.php on line 19
+[29-Nov-2018 19:36:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'pets'' in /home/ubuntu/workspace/cst352/sqlconnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlconnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/labs/lab9/adoptions.php(3): getConnection('pets')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlconnection.php on line 19
+[29-Nov-2018 19:36:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'pets'' in /home/ubuntu/workspace/cst352/sqlconnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlconnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/labs/lab9/adoptions.php(3): getConnection('pets')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlconnection.php on line 19
+[29-Nov-2018 19:44:24 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab9/adoptions.php on line 2
+[29-Nov-2018 19:44:24 UTC] PHP Stack trace:
+[29-Nov-2018 19:44:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab9/adoptions.php:0
+[29-Nov-2018 19:44:24 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab9/adoptions.php on line 2
+[29-Nov-2018 19:44:24 UTC] PHP Stack trace:
+[29-Nov-2018 19:44:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab9/adoptions.php:0
+[29-Nov-2018 19:44:24 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab9/adoptions.php on line 3
+[29-Nov-2018 19:44:24 UTC] PHP Stack trace:
+[29-Nov-2018 19:44:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab9/adoptions.php:0
+[30-Nov-2018 19:38:30 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php on line 3
+[30-Nov-2018 19:38:30 UTC] PHP Stack trace:
+[30-Nov-2018 19:38:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php:0
+[30-Nov-2018 19:38:30 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php on line 3
+[30-Nov-2018 19:38:30 UTC] PHP Stack trace:
+[30-Nov-2018 19:38:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php:0
+[30-Nov-2018 19:38:30 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php on line 4
+[30-Nov-2018 19:38:30 UTC] PHP Stack trace:
+[30-Nov-2018 19:38:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php:0
+[30-Nov-2018 19:38:36 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php on line 3
+[30-Nov-2018 19:38:36 UTC] PHP Stack trace:
+[30-Nov-2018 19:38:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php:0
+[30-Nov-2018 19:38:36 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php on line 3
+[30-Nov-2018 19:38:36 UTC] PHP Stack trace:
+[30-Nov-2018 19:38:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php:0
+[30-Nov-2018 19:38:36 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php on line 4
+[30-Nov-2018 19:38:36 UTC] PHP Stack trace:
+[30-Nov-2018 19:38:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php:0
+[30-Nov-2018 19:38:50 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php on line 3
+[30-Nov-2018 19:38:50 UTC] PHP Stack trace:
+[30-Nov-2018 19:38:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php:0
+[30-Nov-2018 19:38:50 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php on line 3
+[30-Nov-2018 19:38:50 UTC] PHP Stack trace:
+[30-Nov-2018 19:38:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php:0
+[30-Nov-2018 19:38:50 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php on line 4
+[30-Nov-2018 19:38:50 UTC] PHP Stack trace:
+[30-Nov-2018 19:38:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php:0
+[30-Nov-2018 19:38:58 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php on line 3
+[30-Nov-2018 19:38:58 UTC] PHP Stack trace:
+[30-Nov-2018 19:38:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php:0
+[30-Nov-2018 19:38:58 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php on line 3
+[30-Nov-2018 19:38:58 UTC] PHP Stack trace:
+[30-Nov-2018 19:38:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php:0
+[30-Nov-2018 19:38:58 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php on line 4
+[30-Nov-2018 19:38:58 UTC] PHP Stack trace:
+[30-Nov-2018 19:38:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php:0
+[30-Nov-2018 19:39:53 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php on line 3
+[30-Nov-2018 19:39:53 UTC] PHP Stack trace:
+[30-Nov-2018 19:39:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php:0
+[30-Nov-2018 19:39:53 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php on line 3
+[30-Nov-2018 19:39:53 UTC] PHP Stack trace:
+[30-Nov-2018 19:39:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php:0
+[30-Nov-2018 19:39:53 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php on line 4
+[30-Nov-2018 19:39:53 UTC] PHP Stack trace:
+[30-Nov-2018 19:39:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php:0
+[30-Nov-2018 19:48:03 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php on line 3
+[30-Nov-2018 19:48:03 UTC] PHP Stack trace:
+[30-Nov-2018 19:48:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php:0
+[30-Nov-2018 19:48:03 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php on line 3
+[30-Nov-2018 19:48:03 UTC] PHP Stack trace:
+[30-Nov-2018 19:48:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php:0
+[30-Nov-2018 19:48:03 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php on line 4
+[30-Nov-2018 19:48:03 UTC] PHP Stack trace:
+[30-Nov-2018 19:48:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php:0
+[30-Nov-2018 19:48:11 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php on line 3
+[30-Nov-2018 19:48:11 UTC] PHP Stack trace:
+[30-Nov-2018 19:48:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php:0
+[30-Nov-2018 19:48:11 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php on line 3
+[30-Nov-2018 19:48:11 UTC] PHP Stack trace:
+[30-Nov-2018 19:48:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php:0
+[30-Nov-2018 19:48:11 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php on line 4
+[30-Nov-2018 19:48:11 UTC] PHP Stack trace:
+[30-Nov-2018 19:48:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php:0
+[30-Nov-2018 19:49:25 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php on line 3
+[30-Nov-2018 19:49:25 UTC] PHP Stack trace:
+[30-Nov-2018 19:49:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php:0
+[30-Nov-2018 19:49:25 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php on line 3
+[30-Nov-2018 19:49:25 UTC] PHP Stack trace:
+[30-Nov-2018 19:49:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php:0
+[30-Nov-2018 19:49:25 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php on line 4
+[30-Nov-2018 19:49:25 UTC] PHP Stack trace:
+[30-Nov-2018 19:49:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php:0
+[30-Nov-2018 19:49:41 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php on line 3
+[30-Nov-2018 19:49:41 UTC] PHP Stack trace:
+[30-Nov-2018 19:49:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php:0
+[30-Nov-2018 19:49:41 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php on line 3
+[30-Nov-2018 19:49:41 UTC] PHP Stack trace:
+[30-Nov-2018 19:49:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php:0
+[30-Nov-2018 19:49:41 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php on line 4
+[30-Nov-2018 19:49:41 UTC] PHP Stack trace:
+[30-Nov-2018 19:49:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab8/checkUsername.php:0
