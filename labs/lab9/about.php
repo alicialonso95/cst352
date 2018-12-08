@@ -11,6 +11,7 @@
 <center><h1> Adopt, volunteer, donate!<br><br></h1>
 <img src="img/adopt.jpg" alt="adopt"></center>
  <br>
+ <hr>
  <?php
    include "inc/footer.php";
   ?>

@@ -96,6 +96,7 @@ function displayAllPets(){
     </div>
   </div>
 </div>
+<hr>
    <?php
    include "inc/footer.php";
   ?>
