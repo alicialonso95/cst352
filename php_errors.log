@@ -1,0 +1,858 @@
+[06-Dec-2018 18:22:30 UTC] PHP Fatal error:  Call to a member function getMimeType() on a non-object in /home/ubuntu/workspace/cst352/practice/videorating.php on line 3
+[06-Dec-2018 18:22:30 UTC] PHP Stack trace:
+[06-Dec-2018 18:22:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:22:38 UTC] PHP Fatal error:  Call to a member function getMimeType() on a non-object in /home/ubuntu/workspace/cst352/practice/videorating.php on line 2
+[06-Dec-2018 18:22:38 UTC] PHP Stack trace:
+[06-Dec-2018 18:22:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:23:10 UTC] PHP Fatal error:  Call to a member function getMimeType() on a non-object in /home/ubuntu/workspace/cst352/practice/videorating.php on line 2
+[06-Dec-2018 18:23:10 UTC] PHP Stack trace:
+[06-Dec-2018 18:23:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:38:22 UTC] PHP Warning:  include(../../sqlconnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/practice/videorating.php on line 9
+[06-Dec-2018 18:38:22 UTC] PHP Stack trace:
+[06-Dec-2018 18:38:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:38:22 UTC] PHP Warning:  include(): Failed opening '../../sqlconnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/practice/videorating.php on line 9
+[06-Dec-2018 18:38:22 UTC] PHP Stack trace:
+[06-Dec-2018 18:38:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:38:22 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/practice/videorating.php on line 10
+[06-Dec-2018 18:38:22 UTC] PHP Stack trace:
+[06-Dec-2018 18:38:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:38:39 UTC] PHP Warning:  include(../../sqlconnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/practice/videorating.php on line 2
+[06-Dec-2018 18:38:39 UTC] PHP Stack trace:
+[06-Dec-2018 18:38:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:38:39 UTC] PHP Warning:  include(): Failed opening '../../sqlconnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/practice/videorating.php on line 2
+[06-Dec-2018 18:38:39 UTC] PHP Stack trace:
+[06-Dec-2018 18:38:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:38:39 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/practice/videorating.php on line 3
+[06-Dec-2018 18:38:39 UTC] PHP Stack trace:
+[06-Dec-2018 18:38:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:39:03 UTC] PHP Warning:  include(../../sqlconnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/practice/videorating.php on line 2
+[06-Dec-2018 18:39:03 UTC] PHP Stack trace:
+[06-Dec-2018 18:39:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:39:03 UTC] PHP Warning:  include(): Failed opening '../../sqlconnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/practice/videorating.php on line 2
+[06-Dec-2018 18:39:03 UTC] PHP Stack trace:
+[06-Dec-2018 18:39:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:39:03 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/practice/videorating.php on line 3
+[06-Dec-2018 18:39:03 UTC] PHP Stack trace:
+[06-Dec-2018 18:39:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:40:34 UTC] PHP Warning:  include(../../sqlconnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/practice/videorating.php on line 2
+[06-Dec-2018 18:40:34 UTC] PHP Stack trace:
+[06-Dec-2018 18:40:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:40:34 UTC] PHP Warning:  include(): Failed opening '../../sqlconnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/practice/videorating.php on line 2
+[06-Dec-2018 18:40:34 UTC] PHP Stack trace:
+[06-Dec-2018 18:40:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:40:34 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/practice/videorating.php on line 3
+[06-Dec-2018 18:40:34 UTC] PHP Stack trace:
+[06-Dec-2018 18:40:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:42:37 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:42:37 UTC] PHP Stack trace:
+[06-Dec-2018 18:42:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:42:37 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:42:37 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:44:52 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:44:52 UTC] PHP Stack trace:
+[06-Dec-2018 18:44:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:44:52 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:44:52 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:44:53 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:44:53 UTC] PHP Stack trace:
+[06-Dec-2018 18:44:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:44:53 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:44:53 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:44:53 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:44:53 UTC] PHP Stack trace:
+[06-Dec-2018 18:44:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:44:53 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:44:53 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:44:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:44:54 UTC] PHP Stack trace:
+[06-Dec-2018 18:44:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:44:54 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:44:54 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:44:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:44:54 UTC] PHP Stack trace:
+[06-Dec-2018 18:44:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:44:54 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:44:54 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:44:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:44:54 UTC] PHP Stack trace:
+[06-Dec-2018 18:44:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:44:54 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:44:54 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:44:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:44:54 UTC] PHP Stack trace:
+[06-Dec-2018 18:44:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:44:54 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:44:54 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:44:55 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:44:55 UTC] PHP Stack trace:
+[06-Dec-2018 18:44:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:44:55 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:44:55 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:44:55 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:44:55 UTC] PHP Stack trace:
+[06-Dec-2018 18:44:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:44:55 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:44:55 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:44:55 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:44:55 UTC] PHP Stack trace:
+[06-Dec-2018 18:44:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:44:55 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:44:55 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:44:55 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:44:55 UTC] PHP Stack trace:
+[06-Dec-2018 18:44:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:44:55 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:44:55 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:46:28 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:46:28 UTC] PHP Stack trace:
+[06-Dec-2018 18:46:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:46:28 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:46:28 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:46:30 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:46:30 UTC] PHP Stack trace:
+[06-Dec-2018 18:46:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:46:30 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:46:30 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:46:39 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:46:39 UTC] PHP Stack trace:
+[06-Dec-2018 18:46:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:46:39 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:46:39 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:46:50 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:46:50 UTC] PHP Stack trace:
+[06-Dec-2018 18:46:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:46:50 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:46:50 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:47:26 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:47:26 UTC] PHP Stack trace:
+[06-Dec-2018 18:47:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:47:26 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:47:26 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:47:27 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:47:27 UTC] PHP Stack trace:
+[06-Dec-2018 18:47:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:47:27 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:47:27 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:47:28 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:47:28 UTC] PHP Stack trace:
+[06-Dec-2018 18:47:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:47:28 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:47:28 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:47:28 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:47:28 UTC] PHP Stack trace:
+[06-Dec-2018 18:47:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:47:28 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:47:28 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:47:28 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:47:28 UTC] PHP Stack trace:
+[06-Dec-2018 18:47:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:47:28 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:47:28 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:47:29 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:47:29 UTC] PHP Stack trace:
+[06-Dec-2018 18:47:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:47:29 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:47:29 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:47:29 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:47:29 UTC] PHP Stack trace:
+[06-Dec-2018 18:47:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:47:29 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:47:29 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:47:29 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:47:29 UTC] PHP Stack trace:
+[06-Dec-2018 18:47:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:47:29 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:47:29 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:47:29 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:47:29 UTC] PHP Stack trace:
+[06-Dec-2018 18:47:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:47:29 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:47:29 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:47:29 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:47:29 UTC] PHP Stack trace:
+[06-Dec-2018 18:47:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:47:29 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:47:29 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:47:30 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:47:30 UTC] PHP Stack trace:
+[06-Dec-2018 18:47:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:47:30 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:47:30 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:47:30 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:47:30 UTC] PHP Stack trace:
+[06-Dec-2018 18:47:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:47:30 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:47:30 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:47:30 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:47:30 UTC] PHP Stack trace:
+[06-Dec-2018 18:47:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:47:30 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:47:30 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:47:30 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:47:30 UTC] PHP Stack trace:
+[06-Dec-2018 18:47:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:47:30 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:47:30 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:47:30 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:47:30 UTC] PHP Stack trace:
+[06-Dec-2018 18:47:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:47:30 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:47:30 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:47:31 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:47:31 UTC] PHP Stack trace:
+[06-Dec-2018 18:47:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:47:31 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:47:31 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:47:31 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:47:31 UTC] PHP Stack trace:
+[06-Dec-2018 18:47:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:47:31 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:47:31 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:47:31 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:47:31 UTC] PHP Stack trace:
+[06-Dec-2018 18:47:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:47:31 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:47:31 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:49:49 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:49:49 UTC] PHP Stack trace:
+[06-Dec-2018 18:49:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:49:49 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:49:49 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/cst352/practice/config.php:7
+[06-Dec-2018 18:50:20 UTC] PHP Warning:  include(../../../sqlconnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:50:20 UTC] PHP Stack trace:
+[06-Dec-2018 18:50:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:50:20 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:50:20 UTC] PHP Warning:  include(): Failed opening '../../../sqlconnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:50:20 UTC] PHP Stack trace:
+[06-Dec-2018 18:50:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:50:20 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:50:20 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/practice/config.php on line 8
+[06-Dec-2018 18:50:20 UTC] PHP Stack trace:
+[06-Dec-2018 18:50:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:50:20 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:51:01 UTC] PHP Warning:  include(../../../sqlconnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/practice/config.php on line 2
+[06-Dec-2018 18:51:01 UTC] PHP Stack trace:
+[06-Dec-2018 18:51:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:51:01 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:51:01 UTC] PHP Warning:  include(): Failed opening '../../../sqlconnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/practice/config.php on line 2
+[06-Dec-2018 18:51:01 UTC] PHP Stack trace:
+[06-Dec-2018 18:51:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:51:01 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:51:01 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/practice/config.php on line 3
+[06-Dec-2018 18:51:01 UTC] PHP Stack trace:
+[06-Dec-2018 18:51:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:51:01 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:53:16 UTC] PHP Warning:  include(../../../sqlconnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:53:16 UTC] PHP Stack trace:
+[06-Dec-2018 18:53:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:53:16 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:53:16 UTC] PHP Warning:  include(): Failed opening '../../../sqlconnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:53:16 UTC] PHP Stack trace:
+[06-Dec-2018 18:53:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:53:16 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:53:16 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/practice/config.php on line 8
+[06-Dec-2018 18:53:16 UTC] PHP Stack trace:
+[06-Dec-2018 18:53:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:53:16 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:53:27 UTC] PHP Warning:  include(../../../sqlconnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:53:27 UTC] PHP Stack trace:
+[06-Dec-2018 18:53:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:53:27 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:53:27 UTC] PHP Warning:  include(): Failed opening '../../../sqlconnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:53:27 UTC] PHP Stack trace:
+[06-Dec-2018 18:53:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:53:27 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:53:27 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/practice/config.php on line 8
+[06-Dec-2018 18:53:27 UTC] PHP Stack trace:
+[06-Dec-2018 18:53:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:53:27 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:53:42 UTC] PHP Warning:  include(../../../sqlconnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:53:42 UTC] PHP Stack trace:
+[06-Dec-2018 18:53:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:53:42 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:53:42 UTC] PHP Warning:  include(): Failed opening '../../../sqlconnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:53:42 UTC] PHP Stack trace:
+[06-Dec-2018 18:53:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:53:42 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:53:42 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/practice/config.php on line 8
+[06-Dec-2018 18:53:42 UTC] PHP Stack trace:
+[06-Dec-2018 18:53:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:53:42 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:53:50 UTC] PHP Warning:  include(../../../sqlconnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:53:50 UTC] PHP Stack trace:
+[06-Dec-2018 18:53:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:53:50 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:53:50 UTC] PHP Warning:  include(): Failed opening '../../../sqlconnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:53:50 UTC] PHP Stack trace:
+[06-Dec-2018 18:53:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:53:50 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:53:50 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/practice/config.php on line 8
+[06-Dec-2018 18:53:50 UTC] PHP Stack trace:
+[06-Dec-2018 18:53:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:53:50 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:53:52 UTC] PHP Warning:  include(../../../sqlconnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:53:52 UTC] PHP Stack trace:
+[06-Dec-2018 18:53:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:53:52 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:53:52 UTC] PHP Warning:  include(): Failed opening '../../../sqlconnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:53:52 UTC] PHP Stack trace:
+[06-Dec-2018 18:53:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:53:52 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:53:52 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/practice/config.php on line 8
+[06-Dec-2018 18:53:52 UTC] PHP Stack trace:
+[06-Dec-2018 18:53:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:53:52 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:53:52 UTC] PHP Warning:  include(../../../sqlconnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:53:52 UTC] PHP Stack trace:
+[06-Dec-2018 18:53:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:53:52 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:53:52 UTC] PHP Warning:  include(): Failed opening '../../../sqlconnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:53:52 UTC] PHP Stack trace:
+[06-Dec-2018 18:53:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:53:52 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:53:52 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/practice/config.php on line 8
+[06-Dec-2018 18:53:52 UTC] PHP Stack trace:
+[06-Dec-2018 18:53:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:53:52 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:54:07 UTC] PHP Warning:  include(../../../sqlconnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:54:07 UTC] PHP Stack trace:
+[06-Dec-2018 18:54:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:54:07 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:54:07 UTC] PHP Warning:  include(): Failed opening '../../../sqlconnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:54:07 UTC] PHP Stack trace:
+[06-Dec-2018 18:54:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:54:07 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:54:07 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/practice/config.php on line 8
+[06-Dec-2018 18:54:07 UTC] PHP Stack trace:
+[06-Dec-2018 18:54:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:54:07 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:54:10 UTC] PHP Warning:  include(../../../sqlconnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:54:10 UTC] PHP Stack trace:
+[06-Dec-2018 18:54:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:54:10 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:54:10 UTC] PHP Warning:  include(): Failed opening '../../../sqlconnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:54:10 UTC] PHP Stack trace:
+[06-Dec-2018 18:54:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:54:10 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:54:10 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/practice/config.php on line 8
+[06-Dec-2018 18:54:10 UTC] PHP Stack trace:
+[06-Dec-2018 18:54:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:54:10 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:54:39 UTC] PHP Warning:  include(../../../sqlconnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:54:39 UTC] PHP Stack trace:
+[06-Dec-2018 18:54:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:54:39 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:54:39 UTC] PHP Warning:  include(): Failed opening '../../../sqlconnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/practice/config.php on line 7
+[06-Dec-2018 18:54:39 UTC] PHP Stack trace:
+[06-Dec-2018 18:54:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:54:39 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:54:39 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/practice/config.php on line 8
+[06-Dec-2018 18:54:39 UTC] PHP Stack trace:
+[06-Dec-2018 18:54:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:54:39 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 18:55:48 UTC] PHP Fatal error:  Cannot redeclare getConnection() (previously declared in /home/ubuntu/workspace/cst352/sqlconnection.php:3) in /home/ubuntu/workspace/cst352/sqlconnection.php on line 3
+[06-Dec-2018 18:55:48 UTC] PHP Stack trace:
+[06-Dec-2018 18:55:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:55:49 UTC] PHP Fatal error:  Cannot redeclare getConnection() (previously declared in /home/ubuntu/workspace/cst352/sqlconnection.php:3) in /home/ubuntu/workspace/cst352/sqlconnection.php on line 3
+[06-Dec-2018 18:55:49 UTC] PHP Stack trace:
+[06-Dec-2018 18:55:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:56:32 UTC] PHP Fatal error:  Cannot redeclare getConnection() (previously declared in /home/ubuntu/workspace/cst352/sqlconnection.php:3) in /home/ubuntu/workspace/cst352/sqlconnection.php on line 3
+[06-Dec-2018 18:56:32 UTC] PHP Stack trace:
+[06-Dec-2018 18:56:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:56:35 UTC] PHP Fatal error:  Cannot redeclare getConnection() (previously declared in /home/ubuntu/workspace/cst352/sqlconnection.php:3) in /home/ubuntu/workspace/cst352/sqlconnection.php on line 3
+[06-Dec-2018 18:56:35 UTC] PHP Stack trace:
+[06-Dec-2018 18:56:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:57:35 UTC] PHP Fatal error:  Cannot redeclare getConnection() (previously declared in /home/ubuntu/workspace/cst352/sqlconnection.php:3) in /home/ubuntu/workspace/cst352/sqlconnection.php on line 3
+[06-Dec-2018 18:57:35 UTC] PHP Stack trace:
+[06-Dec-2018 18:57:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:58:03 UTC] PHP Fatal error:  Cannot redeclare getConnection() (previously declared in /home/ubuntu/workspace/cst352/sqlconnection.php:3) in /home/ubuntu/workspace/cst352/sqlconnection.php on line 3
+[06-Dec-2018 18:58:03 UTC] PHP Stack trace:
+[06-Dec-2018 18:58:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 18:58:47 UTC] PHP Fatal error:  Cannot redeclare getConnection() (previously declared in /home/ubuntu/workspace/cst352/sqlconnection.php:3) in /home/ubuntu/workspace/cst352/sqlconnection.php on line 3
+[06-Dec-2018 18:58:47 UTC] PHP Stack trace:
+[06-Dec-2018 18:58:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 19:00:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst352/practice/videorating.php on line 101
+[06-Dec-2018 19:00:37 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst352/practice/videorating.php on line 100
+[06-Dec-2018 19:00:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst352/practice/videorating.php on line 100
+[06-Dec-2018 19:01:12 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst352/practice/videorating.php on line 100
+[06-Dec-2018 19:02:01 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst352/practice/videorating.php on line 100
+[06-Dec-2018 19:02:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst352/practice/videorating.php on line 99
+[06-Dec-2018 19:02:16 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst352/practice/videorating.php on line 99
+[06-Dec-2018 19:02:34 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst352/practice/videorating.php on line 99
+[06-Dec-2018 19:02:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst352/practice/videorating.php on line 99
+[06-Dec-2018 19:04:01 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst352/practice/videorating.php on line 99
+[06-Dec-2018 19:04:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst352/practice/videorating.php on line 98
+[06-Dec-2018 19:05:03 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst352/practice/videorating.php on line 98
+[06-Dec-2018 19:05:44 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst352/practice/videorating.php on line 97
+[06-Dec-2018 19:06:19 UTC] PHP Fatal error:  Cannot redeclare getConnection() (previously declared in /home/ubuntu/workspace/cst352/sqlconnection.php:3) in /home/ubuntu/workspace/cst352/sqlconnection.php on line 3
+[06-Dec-2018 19:06:19 UTC] PHP Stack trace:
+[06-Dec-2018 19:06:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 19:06:22 UTC] PHP Fatal error:  Cannot redeclare getConnection() (previously declared in /home/ubuntu/workspace/cst352/sqlconnection.php:3) in /home/ubuntu/workspace/cst352/sqlconnection.php on line 3
+[06-Dec-2018 19:06:22 UTC] PHP Stack trace:
+[06-Dec-2018 19:06:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 19:07:34 UTC] PHP Fatal error:  Cannot redeclare getConnection() (previously declared in /home/ubuntu/workspace/cst352/sqlconnection.php:3) in /home/ubuntu/workspace/cst352/sqlconnection.php on line 3
+[06-Dec-2018 19:07:34 UTC] PHP Stack trace:
+[06-Dec-2018 19:07:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 19:07:54 UTC] PHP Fatal error:  Cannot redeclare getConnection() (previously declared in /home/ubuntu/workspace/cst352/sqlconnection.php:3) in /home/ubuntu/workspace/cst352/sqlconnection.php on line 3
+[06-Dec-2018 19:07:54 UTC] PHP Stack trace:
+[06-Dec-2018 19:07:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 19:07:55 UTC] PHP Fatal error:  Cannot redeclare getConnection() (previously declared in /home/ubuntu/workspace/cst352/sqlconnection.php:3) in /home/ubuntu/workspace/cst352/sqlconnection.php on line 3
+[06-Dec-2018 19:07:55 UTC] PHP Stack trace:
+[06-Dec-2018 19:07:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 19:08:03 UTC] PHP Fatal error:  Cannot redeclare getConnection() (previously declared in /home/ubuntu/workspace/cst352/sqlconnection.php:3) in /home/ubuntu/workspace/cst352/sqlconnection.php on line 3
+[06-Dec-2018 19:08:03 UTC] PHP Stack trace:
+[06-Dec-2018 19:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 19:08:14 UTC] PHP Fatal error:  Cannot redeclare getConnection() (previously declared in /home/ubuntu/workspace/cst352/sqlconnection.php:3) in /home/ubuntu/workspace/cst352/sqlconnection.php on line 3
+[06-Dec-2018 19:08:14 UTC] PHP Stack trace:
+[06-Dec-2018 19:08:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 19:08:18 UTC] PHP Fatal error:  Cannot redeclare getConnection() (previously declared in /home/ubuntu/workspace/cst352/sqlconnection.php:3) in /home/ubuntu/workspace/cst352/sqlconnection.php on line 3
+[06-Dec-2018 19:08:18 UTC] PHP Stack trace:
+[06-Dec-2018 19:08:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 19:08:27 UTC] PHP Fatal error:  Cannot redeclare getConnection() (previously declared in /home/ubuntu/workspace/cst352/sqlconnection.php:3) in /home/ubuntu/workspace/cst352/sqlconnection.php on line 3
+[06-Dec-2018 19:08:27 UTC] PHP Stack trace:
+[06-Dec-2018 19:08:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 19:08:36 UTC] PHP Warning:  include(../../../sqlconnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/practice/config.php on line 2
+[06-Dec-2018 19:08:36 UTC] PHP Stack trace:
+[06-Dec-2018 19:08:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 19:08:36 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 19:08:36 UTC] PHP Warning:  include(): Failed opening '../../../sqlconnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/practice/config.php on line 2
+[06-Dec-2018 19:08:36 UTC] PHP Stack trace:
+[06-Dec-2018 19:08:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 19:08:36 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 19:08:36 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/practice/config.php on line 3
+[06-Dec-2018 19:08:36 UTC] PHP Stack trace:
+[06-Dec-2018 19:08:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 19:08:36 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 19:08:46 UTC] PHP Warning:  include(../../sqlconnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/practice/config.php on line 2
+[06-Dec-2018 19:08:46 UTC] PHP Stack trace:
+[06-Dec-2018 19:08:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 19:08:46 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 19:08:46 UTC] PHP Warning:  include(): Failed opening '../../sqlconnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/practice/config.php on line 2
+[06-Dec-2018 19:08:46 UTC] PHP Stack trace:
+[06-Dec-2018 19:08:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 19:08:46 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 19:08:46 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/practice/config.php on line 3
+[06-Dec-2018 19:08:46 UTC] PHP Stack trace:
+[06-Dec-2018 19:08:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 19:08:46 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 19:08:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:09:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:09:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:10:09 UTC] PHP Warning:  include(../../../sqlconnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php on line 2
+[06-Dec-2018 19:10:09 UTC] PHP Stack trace:
+[06-Dec-2018 19:10:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/getRatingInfo.php:0
+[06-Dec-2018 19:10:09 UTC] PHP Warning:  include(): Failed opening '../../../sqlconnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php on line 2
+[06-Dec-2018 19:10:09 UTC] PHP Stack trace:
+[06-Dec-2018 19:10:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/getRatingInfo.php:0
+[06-Dec-2018 19:10:09 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php on line 3
+[06-Dec-2018 19:10:09 UTC] PHP Stack trace:
+[06-Dec-2018 19:10:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/getRatingInfo.php:0
+[06-Dec-2018 19:10:16 UTC] PHP Warning:  include(../../../sqlconnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php on line 2
+[06-Dec-2018 19:10:16 UTC] PHP Stack trace:
+[06-Dec-2018 19:10:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/getRatingInfo.php:0
+[06-Dec-2018 19:10:16 UTC] PHP Warning:  include(): Failed opening '../../../sqlconnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php on line 2
+[06-Dec-2018 19:10:16 UTC] PHP Stack trace:
+[06-Dec-2018 19:10:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/getRatingInfo.php:0
+[06-Dec-2018 19:10:16 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php on line 3
+[06-Dec-2018 19:10:16 UTC] PHP Stack trace:
+[06-Dec-2018 19:10:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/getRatingInfo.php:0
+[06-Dec-2018 19:10:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:10:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:10:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rating.ratings' doesn't exist' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:11:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:11:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:11:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:11:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:11:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:11:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:11:39 UTC] PHP Warning:  include(../../../sqlconnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php on line 2
+[06-Dec-2018 19:11:39 UTC] PHP Stack trace:
+[06-Dec-2018 19:11:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/getRatingInfo.php:0
+[06-Dec-2018 19:11:39 UTC] PHP Warning:  include(): Failed opening '../../../sqlconnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php on line 2
+[06-Dec-2018 19:11:39 UTC] PHP Stack trace:
+[06-Dec-2018 19:11:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/getRatingInfo.php:0
+[06-Dec-2018 19:11:39 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php on line 3
+[06-Dec-2018 19:11:39 UTC] PHP Stack trace:
+[06-Dec-2018 19:11:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/getRatingInfo.php:0
+[06-Dec-2018 19:13:28 UTC] PHP Warning:  include(../../sqlconnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php on line 2
+[06-Dec-2018 19:13:28 UTC] PHP Stack trace:
+[06-Dec-2018 19:13:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/getRatingInfo.php:0
+[06-Dec-2018 19:13:28 UTC] PHP Warning:  include(): Failed opening '../../sqlconnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php on line 2
+[06-Dec-2018 19:13:28 UTC] PHP Stack trace:
+[06-Dec-2018 19:13:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/getRatingInfo.php:0
+[06-Dec-2018 19:13:28 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php on line 3
+[06-Dec-2018 19:13:28 UTC] PHP Stack trace:
+[06-Dec-2018 19:13:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/getRatingInfo.php:0
+[06-Dec-2018 19:13:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rating.ratings' doesn't exist' in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/getRatingInfo.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/getRatingInfo.php(20): displayRating()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php on line 14
+[06-Dec-2018 19:15:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rating.ratings' doesn't exist' in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/getRatingInfo.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/getRatingInfo.php(20): displayRating()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php on line 14
+[06-Dec-2018 19:15:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:15:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/getRatingInfo.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/getRatingInfo.php(20): displayRating()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php on line 14
+[06-Dec-2018 19:16:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rating.ratings' doesn't exist' in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/getRatingInfo.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/getRatingInfo.php(20): displayRating()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php on line 14
+[06-Dec-2018 19:17:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/getRatingInfo.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/getRatingInfo.php(20): displayRating()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php on line 14
+[06-Dec-2018 19:18:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:18:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:18:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:18:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:18:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:18:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:18:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:18:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:18:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:18:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:18:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:18:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:19:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/getRatingInfo.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/getRatingInfo.php(20): displayRating()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php on line 14
+[06-Dec-2018 19:21:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:21:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:21:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/getRatingInfo.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/getRatingInfo.php(20): displayRating()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php on line 14
+[06-Dec-2018 19:21:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:22:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/getRatingInfo.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/getRatingInfo.php(20): displayRating()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php on line 14
+[06-Dec-2018 19:25:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/getRatingInfo.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/getRatingInfo.php(20): displayRating()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php on line 14
+[06-Dec-2018 19:25:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/getRatingInfo.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/getRatingInfo.php(20): displayRating()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php on line 14
+[06-Dec-2018 19:25:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/getRatingInfo.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/getRatingInfo.php(20): displayRating()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php on line 14
+[06-Dec-2018 19:25:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/getRatingInfo.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/getRatingInfo.php(20): displayRating()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/getRatingInfo.php on line 14
+[06-Dec-2018 19:27:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:27:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:27:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:27:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:28:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(19): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 13
+[06-Dec-2018 19:28:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(20): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:30:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(24): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 15
+[06-Dec-2018 19:30:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(24): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 15
+[06-Dec-2018 19:39:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(24): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 15
+[06-Dec-2018 19:40:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(24): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 15
+[06-Dec-2018 19:41:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(24): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 15
+[06-Dec-2018 19:42:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4' in /home/ubuntu/workspace/cst352/practice/config.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/config.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/practice/config.php(24): displayRating()
+#2 /home/ubuntu/workspace/cst352/practice/videorating.php(1): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/config.php on line 15
+[06-Dec-2018 19:42:24 UTC] PHP Fatal error:  Cannot redeclare getConnection() (previously declared in /home/ubuntu/workspace/cst352/sqlconnection.php:3) in /home/ubuntu/workspace/cst352/sqlconnection.php on line 3
+[06-Dec-2018 19:42:24 UTC] PHP Stack trace:
+[06-Dec-2018 19:42:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 19:42:51 UTC] PHP Fatal error:  Cannot redeclare getConnection() (previously declared in /home/ubuntu/workspace/cst352/sqlconnection.php:3) in /home/ubuntu/workspace/cst352/sqlconnection.php on line 3
+[06-Dec-2018 19:42:51 UTC] PHP Stack trace:
+[06-Dec-2018 19:42:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 19:44:33 UTC] PHP Fatal error:  Cannot redeclare getConnection() (previously declared in /home/ubuntu/workspace/cst352/sqlconnection.php:3) in /home/ubuntu/workspace/cst352/sqlconnection.php on line 3
+[06-Dec-2018 19:44:33 UTC] PHP Stack trace:
+[06-Dec-2018 19:44:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 19:44:50 UTC] PHP Fatal error:  Cannot redeclare getConnection() (previously declared in /home/ubuntu/workspace/cst352/sqlconnection.php:3) in /home/ubuntu/workspace/cst352/sqlconnection.php on line 3
+[06-Dec-2018 19:44:50 UTC] PHP Stack trace:
+[06-Dec-2018 19:44:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 19:44:59 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:44:59 UTC] PHP Stack trace:
+[06-Dec-2018 19:44:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 19:44:59 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 19:44:59 UTC] PHP   3. displayRating() /home/ubuntu/workspace/cst352/practice/config.php:24
+[06-Dec-2018 19:45:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:45:11 UTC] PHP Stack trace:
+[06-Dec-2018 19:45:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 19:45:11 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 19:45:11 UTC] PHP   3. displayRating() /home/ubuntu/workspace/cst352/practice/config.php:24
+[06-Dec-2018 19:45:12 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst352/practice/config.php on line 14
+[06-Dec-2018 19:45:12 UTC] PHP Stack trace:
+[06-Dec-2018 19:45:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 19:45:12 UTC] PHP   2. include() /home/ubuntu/workspace/cst352/practice/videorating.php:1
+[06-Dec-2018 19:45:12 UTC] PHP   3. displayRating() /home/ubuntu/workspace/cst352/practice/config.php:24
+[06-Dec-2018 19:45:29 UTC] PHP Fatal error:  Cannot redeclare getConnection() (previously declared in /home/ubuntu/workspace/cst352/sqlconnection.php:3) in /home/ubuntu/workspace/cst352/sqlconnection.php on line 3
+[06-Dec-2018 19:45:29 UTC] PHP Stack trace:
+[06-Dec-2018 19:45:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0
+[06-Dec-2018 19:45:44 UTC] PHP Fatal error:  Cannot redeclare getConnection() (previously declared in /home/ubuntu/workspace/cst352/sqlconnection.php:3) in /home/ubuntu/workspace/cst352/sqlconnection.php on line 3
+[06-Dec-2018 19:45:44 UTC] PHP Stack trace:
+[06-Dec-2018 19:45:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/practice/videorating.php:0

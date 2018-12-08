@@ -52,7 +52,6 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-
 <br>
 <a class="btn btn-outline-success" href="adoptions.php" role="button">Adopt Now!</a>
 
@@ -60,4 +59,4 @@
 <hr>
  <?php
    include "inc/footer.php";
-   ?>
+  ?>

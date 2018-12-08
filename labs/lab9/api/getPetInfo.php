@@ -1,5 +1,5 @@
 <?php
-    include '../../../sqlConnection.php';
+    include '../../../sqlconnection.php';
     $dbConn = getConnection("pets");
     
     function displayPet(){
@@ -18,6 +18,7 @@
 
     $petDisp=displayPet();
     
+   
    // print_r($petDisp);
    
    //DO NOT DISPLAY ANYTHING OTHER THAN JSON FORMAT IN WEB APIS
