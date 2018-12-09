@@ -1,7 +1,6 @@
 <?php 
-include '../../sqlconnection.php';
+include '../../../sqlConnection.php';
 $dbConn = getConnection("pets");
-
 function displayAllPets(){
     global $dbConn;
     
@@ -13,7 +12,10 @@ function displayAllPets(){
     $stmt->execute();
     $pets = $stmt->fetchAll(PDO::FETCH_ASSOC); 
     
+    
     return $pets;
+    
+    
 }
 ?>
 
@@ -30,7 +32,7 @@ function displayAllPets(){
   $(document).ready(function(){
         $('.petLink').click(function(){
           //alert( $(this).attr("id") );
-          
+          $('#img').show();
           $('#petInfoModal').modal("show");
           
             $.ajax({
@@ -48,6 +50,7 @@ function displayAllPets(){
                $("#color").html(data.color);
                $("#breed").html(data.breed);
             
+                $('#img').hide();
             },
             complete: function(data,status) { //optional, used for debugging purposes
                //alert(status);
@@ -58,8 +61,8 @@ function displayAllPets(){
   });
       
   </script>
-  <center>
   <?php 
+    echo "<img src='img/loading.gif' id='img' style='display:none'/> <br>";
     $pets = displayAllPets();
     
     foreach($pets as $pet) {
@@ -67,7 +70,7 @@ function displayAllPets(){
         echo "Type: " .$pet["type"]. "<br><br>" ;
     }
   ?>
-  </center>
+  
   
 <!-- Modal -->
 <div class="modal fade" id="petInfoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -81,11 +84,12 @@ function displayAllPets(){
       </div>
       <div class="modal-body">
         <div id="petInfo">
-             <img id="petImg" src="" width="500" height="500" display="show"></img><br>
-             <center><span id="petDescription"></span> <br></center>
-             - <span id="type"></span> <br>
-             - <span id="breed"></span> <br>
-             - <span id="color"></span> <br>
+     <!-- this is an html element -->
+     <img id="petImg" src="" width="150"></img>
+     <span id="petDescription"></span> <br>
+     <span id="type"></span> <br>
+     <span id="breed"></span> <br>
+     <span id="color"></span> <br>
      
   </div>
       </div>
