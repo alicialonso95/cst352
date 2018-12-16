@@ -2,17 +2,48 @@
 <html>
     <head>
         <title>Login</title>
-        <link href="https://fonts.googleapis.com/css?family=Acme|Work+Sans" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+      	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+       	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script> 
        <!-- <link href="css/styles.css" rel="stylesheet" type="text/css" /> -->
-        
-    
+   
     </head>
+    <script>
+        $(document).ready(function(){
+               $("#loginBtn").click(function(){
+                   alert("Button has been clicked!"); 
+                $.ajax({
+                    type: "get",
+                    url: "loginProcess.php",
+                    dataType: "json",
+                    data: { "username":$("#username").val(), 
+                            "password": password},
+                    success: function(data,status) {
+                       alert(data.username + " " + data.username);
+                       if(!data){
+                            
+                            $("#loginStatus").html("loginStatus: Unsuccessful");
+                       }
+                       else{
+                           
+                            $("#loginStatus").html("loginStatus: Successful" + (parseInt(data.lastLoginStatus)));  
+                       }
+                    
+                    },
+                    complete: function(data,status) { //optional, used for debugging purposes
+                       alert(status);
+                    }
+                    
+                    });//ajax
+               }); 
+            });
+        
+    </script> 
     <style>
         body {
             
             text-align: center;
-            
         }
         .rubric{
             margin: auto;
@@ -33,8 +64,6 @@
                 <div class="navbar-nav">
                   <a class="nav-item nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
                  
-                 
-                 
                 </div>
               </div>
             </nav>
@@ -42,12 +71,13 @@
         
         <div class="jumbotron jumbotron-fluid">
             <h1>Welcome to our page!</h1>
-            <h4>Login</h4>
+            <h4>Please Login in</h4>
         </div>  
         <div class="login">
             <form action="loginProcess.php" method="post">
                 <p>Username: <input type="text" name="username"></p>  
                 <p>Password: <input type="password" name="password"></p>
+                 <h3 id="loginStatus"></h3>
                 <input type="submit" id="loginBtn" value="Login" class="btn btn-primary">
             </form>
             </div>
@@ -64,7 +94,7 @@
   <div class="rubric">
     <table border="1" width="600">
     <tbody><tr><th>#</th><th>Task Description</th><th>Points</th></tr>
-    <tr style="background-color:#FFC0C0">
+    <tr style="background-color:#99E999">
       <td>1</td>
       <td>There is a Login form with all appropriate HTML elements</td>
       <td width="20" align="center">5</td>
@@ -94,12 +124,12 @@
        <td>When submitting the Login form, if the credentials are wrong, the user is taking back to the login screen. </td>
        <td align="center">5</td>
      </tr> 
-      <tr style="background-color:#FFC0C0">
+      <tr style="background-color:#99E999">
        <td>7</td>
        <td>When submitting the Login form, if the credentials are correct, a "username" session variable is set and it is displayed in a new page called <strong>"welcome.php"</strong> </td>
        <td align="center">10</td>
      </tr> 
-      <tr style="background-color:#FFC0C0">
+      <tr style="background-color:#99E999">
        <td>8</td>
        <td>At least five CSS rules are included</td>
        <td align="center">5</td>

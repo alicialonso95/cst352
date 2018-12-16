@@ -32,15 +32,15 @@ session_start();  //starts or resumes a session
  
  //print_r($record);
  if (empty($record)){
-     
-     echo "Error: Wrong Username or Password!!";
-     
+
+     header("location: program1.php");
+     //alert( "Error: last attempt to login was unsuccessful!");
  } else {
 
      $_SESSION['adminSesh'] = $record['username'];
      
-     header("location: program1.php"); //redirects to another program.
-     
+     header("location: welcome.php"); //redirects to another program.
+     //echo "<h3>login Sucessfully!</h3>";
  }
 
 ?>
